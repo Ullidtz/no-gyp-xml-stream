@@ -1,0 +1,51 @@
+<big-root-element root-attributes="a date or something">
+    <more-manageable-child-element child-type="generic" child-name="1">
+        <child-of-child>
+            <child-og-child-of-child>
+                <name>My name</name>
+                <something an-attribute="whatever">Irrelevant</something>
+                <self-closing stuff="just stuff"/>
+            </child-og-child-of-child>
+            <child-og-child-of-child>
+                <name>Your name</name>
+                <something an-attribute="whatevs">Dunno</something>
+                <self-closing stuff="matters"/>
+            </child-og-child-of-child>
+        </child-of-child>
+        <something-else>
+            <runing-out-of-ideas>text</runing-out-of-ideas>
+        </something-else>
+        <an-element>some text</an-element>
+    </more-manageable-child-element>
+    <more-manageable-child-element child-type="specific" child-name="2">
+        <child-of-child>
+            <child-og-child-of-child>
+                <name>His name</name>
+                <something an-attribute="iuno">Cigar</something>
+                <self-closing stuff="maybe"/>
+            </child-og-child-of-child>
+            <child-og-child-of-child>
+                <name>Her name</name>
+                <something an-attribute="fish">Lemon</something>
+                <self-closing stuff="potato"/>
+            </child-og-child-of-child>
+        </child-of-child>
+        <something-else>
+            <runing-out-of-ideas>monkey</runing-out-of-ideas>
+        </something-else>
+        <an-element>tomato</an-element>
+    </more-manageable-child-element>
+    <more-manageable-child-element child-type="templates" child-name="3">
+        <child-of-child>
+            <child-og-child-of-child>
+                <name>Bob</name>
+                <something an-attribute="cat">Burglar</something>
+                <self-closing stuff="snake"/>
+            </child-og-child-of-child>
+        </child-of-child>
+        <something-else>
+            <runing-out-of-ideas>air</runing-out-of-ideas>
+        </something-else>
+        <an-element>fire</an-element>
+    </more-manageable-child-element>
+</big-root-element>
