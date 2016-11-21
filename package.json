@@ -4,18 +4,19 @@
   "description": "Converts XML to Json from a file stream, calling a callback method for each child, without depending on GYP.",
   "main": "lib/no-gyp-xml-stream.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node example/basic-example.js"
   },
   "repository": {
     "type": "git",
-    "url": "mygiturl.addlater.git"
+    "url": "https://github.com/Ullidtz/no-gyp-xml-stream.git"
   },
   "keywords": [
     "no-gyp",
     "XML",
     "Json",
     "XML2Json",
-    "XML-Stream"
+    "XML-Stream",
+    "Parser"
   ],
   "author": "Soren Ullidtz",
   "license": "MIT",
