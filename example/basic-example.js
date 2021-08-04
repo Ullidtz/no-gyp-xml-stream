@@ -1,8 +1,9 @@
 'use strict'
+var path = require('path');
 
 var noGypXmlStream = require('../lib/no-gyp-xml-stream');
 var options = { attributesVariableName: 'elementAttributes', textVariableName: 'elementText', flatten: true, dontFlatten: ['child-of-child-of-child'] };
-noGypXmlStream.getXmlStreamChildren('big-root-element', 'more-manageable-child-element', 'test-xml.xml', function(childObject){
+noGypXmlStream.getXmlStreamChildren('big-root-element', 'more-manageable-child-element', path.join(__dirname, './test-xml.xml'), function(childObject){
     console.log(childObject);
     console.log('STRINGIFIED: ' + JSON.stringify(childObject) + '\r\n');
 }, options, function(parentObject){
