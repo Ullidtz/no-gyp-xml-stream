@@ -1,6 +1,6 @@
 {
   "name": "no-gyp-xml-stream",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Converts XML to Json from a file stream, calling a callback method for each child, without depending on GYP.",
   "main": "lib/no-gyp-xml-stream.js",
   "scripts": {
